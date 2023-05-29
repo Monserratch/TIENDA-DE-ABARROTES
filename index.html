@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <style>
+   
+    .image-container {
+      position: relative;
+      width: 100%;
+      max-width: 900px; /* Adjust the max-width as per your needs */
+      margin: 0 auto;
+    }
+
+    .image-container img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .image-container .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.5); /* Adjust the background color and opacity as needed */
+      color: #fff; /* Adjust the text color as needed */
+      padding: 20px;
+      text-align: center;
+      font-size: 24px; /* Adjust the font size as needed */
+      font-family: Tahoma;
+    }
+
+    .image-container .text-overlay .button-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px; /* Adjust the spacing between links and buttons */
+      font-family: Tahoma;
+    }
+
+    .image-container .text-overlay .button-container .button {
+      margin: 0 10px; /* Adjust the spacing between buttons */
+      padding: 10px 20px; /* Adjust the button padding as needed */
+      background-color: transparent;
+      color: inherit; /* Use the inherited text color */ /* Adjust the button background color */
+      color: #ffffff; /* Adjust the button text color */
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 16px; /* Adjust the button font size as needed */
+      font-family: Tahoma;
+    }
+    body {
+  font-family: 'Font Name', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change the font family */
+  background-color: orange;
+}
+.wrapper {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .container {
+      display: flex;
+      align-items: center;
+    }
+    
+    .logo {
+      max-width: 100px;
+    }
+    
+    .search-container {
+      margin-left: 20px;
+    }
+    
+    .search-container input[type=text] {
+      padding: 6px;
+      border: none;
+      width: 300px;
+    }
+    
+    .search-container input[type=submit] {
+      padding: 6px 10px;
+      background: #ccc;
+      border: none;
+      cursor: pointer;
+    }
+   
+    .owl-carousel .item img {
+      max-width: 200px;
+      max-height: 200px;
+      display: block;
+      margin: 0 auto;
+    }
+     
+
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <img class="logo" src="IMAGENES/logo.png" alt="Logo">
+      <div class="search-container">
+        <form action="https://www.example.com/search" method="get">
+          <input type="text" name="q" placeholder="Search...">
+          <input type="submit" value="Search">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="image-container">
+    <img src="IMAGENES/img2.jpg" alt="Image">
+    <div class="text-overlay">
+      <h1>Tienda de Abarrotes</h1>
+      <div class="button-container">
+        <a href="Bebidas.html" class="button">Bebidas</a>
+        <a href="Alimentos.html" class="button">Alimentos</a>
+        <a href="Abarrotes.html" class="button">Abarrotes</a>
+        <a href="Vinos & Licores.html" class="button">Vinos y licores</a>
+        <a href="Limpieza.html" class="button">Limpieza </a>
+        <a href="Higiene.html" class="button">Higiene y Belleza</a>
+      </div>
+    </div>
+  </div>
+  <title>4-Card Layout with Images</title>
+  <style>
+    .card-container {
+      text-align: center; /* Center the card container on the page */
+    }
+    .card {
+      display: inline-block;
+      width: 300px;
+      margin: 20px;
+      border: 1px solid hsl(0, 0%, 100%);
+      border-radius: 5px;
+      box-shadow: 2px 2px 4px hsl(0, 0%, 100%);
+      overflow: hidden;
+    }
+    .card-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      
+    }
+    .card-content {
+      padding: 20px;
+    }
+    .card-title {
+      margin-top: 0;
+      color:white;
+      font-family: Tahoma;
+      
+    }
+    .card-description {
+      color:white;
+      font-family: Tahoma;
+    }
+   
+    .footer {
+      background-color: #e15d0b;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Styling for the social network icons */
+    .footer .social-icons {
+      margin-top: 10px;
+    }
+
+    .footer .social-icons a {
+      margin-right: 10px;
+    }
+
+    /* Styling for the logo images */
+    .footer .social-icons img {
+      width: 30px; /* Adjust this value to resize the logos */
+      height: auto;
+    }
+  </style>
+
+<style>
+    h1 {
+      text-align: center;
+      color: white;
+      text-decoration: underline;
+      font-family: Tahoma;
+    }
+  </style>
+  <h1>Ofertas</h1>
+  <div class="card-container">
+    <div class="card">
+      <img class="card-image" src="IMAGENES/img3.jpg" alt="Card Image">
+      <div class="card-content">
+        <h2 class="card-title">Licoreria</h2>
+        <p class="card-description">BACARDÍ, Tripack Ron Blanco de 750 ml. Al 3x2</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-image" src="IMAGENES/img5.jpg" alt="Card Image">
+      <div class="card-content">
+        <h2 class="card-title">Higiene Personal</h2>
+        <p class="card-description">Todo los productos de higiene personal al 2x1</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-image" src="Imagenes/img6.jpg" alt="Card Image">
+      <div class="card-content">
+        <h2 class="card-title">Botanas</h2>
+        <p class="card-description">En la compra de cada producto te llevas uno igual gratis.</p>
+      </div>
+    </div>
+    <h1>Nosotros</h1>
+      <video src="VIDEOS/vid1.mp4" controls autoplay>
+      </video>
+      <h1>Marcas</h1>
+      <div class="owl-carousel">
+        <div class="item">
+          <img src="IMAGENES/C1.png" alt="Image 1">
+        </div>
+        <div class="item">
+          <img src="IMAGENES/C4.png" alt="Image 2">
+        </div>
+        <div class="item">
+          <img src="IMAGENES/C3.png" alt="Image 3">
+        </div>
+        <div class="item">
+          <img src="IMAGENES/C5.jpg" alt="Image 3">
+        </div>
+        <div class="item">
+          <img src="IMAGENES/C6.jpg" alt="Image 3">
+          </div>
+          <div class="item">
+            <img src="IMAGENES/C7.jpg" alt="Image 3">
+          </div>
+        </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(".owl-carousel").owlCarousel({
+        items: 1,
+        loop: true,
+        nav: true,
+        dots: true
+      });
+    });
+  </script>
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4PTDxu9yXQ440oRUWM6Q24?utm_source=generator&theme=0"
+   width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy"></iframe>
+  
+  
+</div>
+</body>
+<footer class="footer">
+  <h1>CONTACTANOS!!</h1>
+  <div class="social-icons">
+    <a href="https://www.facebook.com"><img src="IMAGENES/facebook.png" alt="Facebook"></a>
+    <a href="https://www.whatsapp.com"><img src="IMAGENES/whatsapp.png" alt="Whatsapp"></a>
+  </div>
+ 
+</footer>
+</html>
